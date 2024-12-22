@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOBR-P1 | موقع علمي للأحياء</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KOBR-P1: المحتوى العلمي في الأحياء</h1>
+        <p>دروس، مقاطع، أسئلة، وكل شيء تحتاجه لتعلم الأحياء!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#overview">نظرة عامة</a></li>
+            <li><a href="#topics">المواضيع</a></li>
+            <li><a href="#resources">الموارد</a></li>
+            <li><a href="#questions">الأسئلة البحثية</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="overview">
+            <h2>نظرة عامة على الأحياء</h2>
+            <p>هنا يمكنك إضافة محتوى شامل عن علم الأحياء، مثل مقدمة عن الموضوع أو التعريفات الأساسية.</p>
+            <button onclick="editContent('overview')">تعديل المحتوى</button>
+        </section>
+
+        <section id="topics">
+            <h2>المواضيع الرئيسية</h2>
+            <div class="topic">
+                <h3>الخلية</h3>
+                <p>محتوى عن الخلايا، الهيكل، الوظائف، والأنواع المختلفة.</p>
+                <button onclick="editContent('cell')">تعديل المحتوى</button>
+            </div>
+            <div class="topic">
+                <h3>الوراثة</h3>
+                <p>محتوى عن الجينات، التوريث، وأساليب التحقيق الوراثي.</p>
+                <button onclick="editContent('genetics')">تعديل المحتوى</button>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>الموارد الإثرائية</h2>
+            <p>إضافة روابط لمقاطع الفيديو، المقالات، والصور التي تساهم في فهم المادة بشكل أعمق.</p>
+            <img src="path_to_image.jpg" alt="صورة توضيحية" style="max-width: 100%; height: auto;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video" frameborder="0" allowfullscreen></iframe>
+            <button onclick="editContent('resources')">تعديل المحتوى</button>
+        </section>
+
+        <section id="questions">
+            <h2>الأسئلة البحثية</h2>
+            <ul>
+                <li>ما هي خصائص الخلايا البروكاريوتية؟</li>
+                <li>كيف يتم التوريث الجيني؟</li>
+            </ul>
+            <button onclick="editContent('questions')">إضافة سؤال</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KOBR-P1. كل الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

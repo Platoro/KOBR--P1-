@@ -1,0 +1,7 @@
+function editContent(section) {
+    let newContent = prompt("أدخل المحتوى الجديد:");
+
+    if (newContent) {
+        document.getElementById(section).innerHTML = newContent;
+    }
+}
